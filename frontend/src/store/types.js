@@ -1,0 +1,12 @@
+export const FETCH_USERS = "FETCH_USERS";
+export const ADD_USERS = "ADD_USERS";
+export const UPDATE_USER = "UPDATE_USER";
+export const DELETE_USERS = "DELETE_USERS";
+
+export const FETCH_CURRENT_USER = "FETCH_CURRENT_USER";
+export const DELETE_CURRENT_USER = "DELETE_CURRENT_USER";
+export const UPDATE_CURRENT_USER = "UPDATE_CURRENT_USER";
+
+export const ADD_USER = "ADD_USER";
+
+export const UPDATE_LANG = "UPDATE_LANG";

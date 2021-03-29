@@ -1,0 +1,41 @@
+$bg: #f3f3f3;
+
+.nav {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  a {
+    display: block;
+    padding: 1rem;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a.active {
+    background-color: $bg;
+    opacity: 0.8;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+.users_nav {
+  margin-top: 1.5rem;
+  display: flex;
+  background-color: $bg;
+  padding: 1rem;
+
+  a {
+    &:last-child:before {
+      content: "/";
+      margin: 0 1rem;
+    }
+  }
+
+  .active {
+    color: #a3a3a3;
+    pointer-events: none;
+    cursor: default;
+  }
+}
